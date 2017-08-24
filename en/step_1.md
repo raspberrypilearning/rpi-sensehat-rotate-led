@@ -1,19 +1,9 @@
-## Introduction
+You can change the orientation of the LED matrix display on the Sense HAT.
 
-Add project description here. What will learners be making?
+Use the `set_rotation()` method to rotate the screen one of four ways - 0, 90, 180 or 270 degrees.
 
-### What you will make
+For example, to rotate your screen by 180 degrees you'd use this code:
 
-Add something here to showcase here, for example:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+```python
+sense.set_rotation(180)
+```
