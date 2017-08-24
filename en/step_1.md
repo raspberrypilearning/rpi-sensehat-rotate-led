@@ -7,3 +7,15 @@ For example, to rotate your screen by 180 degrees you'd use this code:
 ```python
 sense.set_rotation(180)
 ```
+
+You can also flip the image on the screen, either horizontally or vertically, using these lines:
+
+```python
+sense.flip_h()
+```
+
+or
+
+```python
+sense.flip_v()
+```
